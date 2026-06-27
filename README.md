@@ -1,6 +1,7 @@
 # SimpleRetrofit
 
-A small Bash toolkit to automate a **retrofit** workflow: 
+A small Bash toolkit to automate a **retrofit** workflow
+
 it takes changes from one branch into a fresh branch cut off a base branch, pushes it, and opens a pull request via command-line flags or simpleRetrofit helper.
 
 ## What it does
