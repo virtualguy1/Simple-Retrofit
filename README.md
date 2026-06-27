@@ -1,8 +1,7 @@
 # SimpleRetrofit
 
-A small Bash toolkit to automate a **retrofit** workflow: take changes from one
-branch into a fresh branch cut off a base branch, push it, and open a pull
-request — either via command-line flags or a config file.
+A small Bash toolkit to automate a **retrofit** workflow: 
+it takes changes from one branch into a fresh branch cut off a base branch, pushes it, and opens a pull request via command-line flags or simpleRetrofit helper.
 
 ## What it does
 
@@ -103,7 +102,5 @@ propagating its exit code.
 
 ## Notes
 
-- Keep your GitHub token secret. Prefer passing it via the config file (excluded
-  from version control) rather than shell history.
 - If the merge in step 4 produces conflicts, the script stops with exit code `8`;
   resolve conflicts and re-run as needed.
